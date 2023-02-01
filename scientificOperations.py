@@ -11,6 +11,7 @@ def scientific_calculate(operation, num1):
 
     returns:
         - the result of the operation on the given number
+	  - This is the commit from my "partner"
     """
 
     if operation == 'sin':
