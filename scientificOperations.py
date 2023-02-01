@@ -11,7 +11,6 @@ def scientific_calculate(operation, num1):
 
     returns:
         - the result of the operation on the given number
-        -Test
     """
 
     if operation == 'sin':
