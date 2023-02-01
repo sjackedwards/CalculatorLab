@@ -11,6 +11,7 @@ def scientific_calculate(operation, num1):
 
     returns:
         - the result of the operation on the given number
+        -Test
     """
 
     if operation == 'sin':
@@ -19,17 +20,17 @@ def scientific_calculate(operation, num1):
     elif operation == 'cos':
         # TODO: finish this statement
         # - should return the cosine of num1
-        pass  # Replace this line with your code
+        math.cos(num1)
 
     elif operation == 'tan':
         # TODO: finish this statement
         # - should return the tangent of num1
-        pass  # Replace this line with your code
+        math.tan(num1)
 
     elif operation == 'ln':
         # TODO: finish this statement
         # - should return the natural log of num1
-        pass  # Replace this line with your code
+        math.ln(num1)
 
     else:
         raise ValueError(
