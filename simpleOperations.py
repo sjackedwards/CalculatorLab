@@ -9,6 +9,7 @@ def simple_calculate(operation, num1, num2):
 
     returns:
         - the result of the operation on the given numbers
+	  - Test
     """
 
     if operation == '+':
